@@ -28,7 +28,7 @@ body {
 .container {
     width: 21rem;
     margin: 0 auto;
-    background-color: var(--clr-dark-blue);
+    background-color: #1e252f;
     border-radius: 1rem;
     position: absolute;
     left: 50%;

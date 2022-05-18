@@ -22,35 +22,35 @@ let btn5 = document.querySelector(".rating--btn5")
 btn1.addEventListener("click", function () {
     btn1 = (btn1.value)
     
-    selectedRating.innerHTML += `<p id="selected">You selected ${btn1} out of 5</p>`
+    selectedRating.innerHTML = `<p id="selected">You selected ${btn1} out of 5</p>`
     console.log(selectedRating)
 })
 
 btn2.addEventListener("click", function () {
     btn2 = (btn2.value) 
     
-    selectedRating.innerHTML += `<p id="selected">You selected ${btn2} out of 5</p>`
+    selectedRating.innerHTML = `<p id="selected">You selected ${btn2} out of 5</p>`
     console.log(selectedRating)
 })
 
 btn3.addEventListener("click", function () {
     btn3 = (btn3.value) 
     
-    selectedRating.innerHTML += `<p id="selected">You selected ${btn3} out of 5</p>`
+    selectedRating.innerHTML = `<p id="selected">You selected ${btn3} out of 5</p>`
     console.log(selectedRating)
 })
 
 btn4.addEventListener("click", function () {
     btn4 = (btn4.value) 
     
-    selectedRating.innerHTML += `<p id="selected">You selected ${btn4} out of 5</p>`
+    selectedRating.innerHTML = `<p id="selected">You selected ${btn4} out of 5</p>`
     console.log(selectedRating)
 })
 
 btn5.addEventListener("click", function () {
     btn5 = (btn5.value) 
 
-    selectedRating.innerHTML += `<p id="selected">You selected ${btn5} out of 5</p>`
+    selectedRating.innerHTML = `<p id="selected">You selected ${btn5} out of 5</p>`
     console.log(selectedRating)
 })
 
